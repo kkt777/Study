@@ -1,0 +1,18 @@
+#wrapper { /* 共通の処理 */
+    width:80%;
+}
+.header {
+    border: solid 1px #999999;
+    background-color: pink;
+    height: 300px;
+}
+.main {
+    height: 500px;
+    border: solid 1px #999999;
+    background-color: skyblue;
+}
+.footer {
+    border: solid 1px #999999;
+    background-color: yellow;
+    height: 200px;
+}

@@ -1,0 +1,74 @@
+body{
+.container{
+  width: 400px;
+  margin:50px auto;
+  display:flex;
+  flex-direction:column;
+}
+
+/* 上 */
+.top{
+  background:#FFCE7A;
+  height:100px;
+}
+
+/* 中央 */
+.middle{
+  display:flex;
+  height:250px;
+}
+
+/* 左 */
+.left{
+  width:150px;
+  background:#9DDDF4;
+}
+
+/* 右エリア */
+.right{
+  width:250px;
+  display:flex;
+  flex-direction:column;
+}
+
+/* 上部エリア */
+.top-area{
+  display:flex;
+  height:150px;
+}
+
+/* 左積み */
+.left-stack{
+  width:150px;
+  display:flex;
+  flex-direction:column;
+}
+
+/* 各色 */
+.green{
+  height:50px;
+  background:#C2FFC8;
+}
+
+.pink{
+  height:100px;
+  background:#FFC2C5;
+}
+
+.red{
+  width:100px;
+  height:150px;
+  background:#F89C9C;
+}
+
+.yellow{
+  height:100px;
+  background:#FFF083;
+}
+
+/* 下 */
+.bottom{
+  height:100px;
+  background:#BEA5FF;
+}
+}

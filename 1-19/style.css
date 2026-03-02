@@ -1,0 +1,75 @@
+body{
+.container{
+  width:400px;
+  margin:50px auto;
+  display:flex;
+  flex-direction:column;
+}
+
+/* 上 */
+.top{
+  height:100px;
+  background:#FFCE7A;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  padding-right:40px;
+}
+
+.mini-box{
+  width:160px;
+  height:60px;
+  background:white;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.mini{
+  width:40px;
+  height:40px;
+  background:#C2FFC8;
+}
+
+/* 中央 */
+.middle{
+  display:flex;
+  height:250px;
+}
+
+.left{
+  width:150px;
+  background:#9DDDF4;
+}
+
+.right{
+  width:250px;
+  background:#C2FFC8;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-top:40px;
+  gap:20px;
+}
+
+/* ピンク */
+.pink{
+  background:#FFC2C5;
+}
+
+.pink{
+  width:140px;
+  height:40px;
+}
+
+.pink{
+  width:140px;
+  height:40px;
+}
+
+/* 下 */
+.bottom{
+  height:100px;
+  background:#BEA5FF;
+}
+}
