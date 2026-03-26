@@ -1,4 +1,3 @@
-body{
 .container{
   width: 400px;
   margin:50px auto;
@@ -45,6 +44,12 @@ body{
 }
 
 /* 各色 */
+.red{
+  width:100px;
+  height:150px;
+  background:#F89C9C;
+}
+
 .green{
   height:50px;
   background:#C2FFC8;
@@ -55,11 +60,6 @@ body{
   background:#FFC2C5;
 }
 
-.red{
-  width:100px;
-  height:150px;
-  background:#F89C9C;
-}
 
 .yellow{
   height:100px;
@@ -70,5 +70,4 @@ body{
 .bottom{
   height:100px;
   background:#BEA5FF;
-}
 }

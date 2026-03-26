@@ -1,12 +1,74 @@
+
 @media screen and (max-width: 767px) {
-/* ここにタブレット用のCSSを記述 */
+ /*ここにタブレット用のCSSを記述 */
 .container{
+    width: 300px;
+}
+.top{
     width: 300px;
 }
 .left{
     width: 100px;
 }
-.top{
+.right{
+    width: 200px;
+}
+.green{
+    width: 125px;
+}
+.pink{
+    width: 125px;
+}
+.bottom{
     width: 300px;
+}
+}
+
+
+@media screen and (max-width: 479px) {
+/* ここにスマホ用のCSSを記述 */
+.container{
+    width: 150px;
+}
+.top{
+    width: 150px;
+}
+.middle{
+    flex-direction:column;
+    width: 150px;
+    height: 450px;
+}
+.left{
+    width: 150px;
+    height: 100px;
+}
+.right{
+    flex-direction:column;
+    width: 150px;
+    height: 350px;
+}
+.top-area{
+    flex-direction:column-reverse;
+    width: 150px;
+    height: 250px;
+}
+.red{
+    width: 150px;
+    height: 100px;
+}
+.green{
+    width: 150px;
+    height: 50px;
+}
+.pink{
+    width: 150px;
+    height: 100px;
+}
+.yellow{
+    width: 150px;
+    height: 100px;
+}
+.bottom{
+    width: 150px;
 }
 }
