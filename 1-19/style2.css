@@ -1,0 +1,54 @@
+@media screen and (max-width: 479px) {
+/* ここにスマホ用のCSSを記述 */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.top{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-box{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 160px;
+    margin: 0 auto; 
+}
+
+.middle{
+    display: flex;
+    flex-direction: column; 
+    height: 290px;
+}
+
+.left{
+    width: 200px;
+    height: 100px;
+}
+
+.right{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    padding-top: 20px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.block{
+    margin-left: 30px;
+}
+
+.bottom{
+    width: 200px;
+}
+}
