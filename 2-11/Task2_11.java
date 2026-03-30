@@ -24,11 +24,11 @@ public class Task2_11 {
     int a = 10;
     int b = 3;
 
-    System.out.println(a + b);
-    System.out.println(a - b);
-    System.out.println(a * b);
-    System.out.println(a / b);
-    System.out.println(a % b);
+    System.out.println("和:" + (a + b));
+    System.out.println("差:" + (a - b));
+    System.out.println("積:" + (a * b));
+    System.out.println("商:" + (a / b));
+    System.out.println("余り:" + (a % b));
     
 
     /*
